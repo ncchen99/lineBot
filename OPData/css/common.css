@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
+body {
+  /*background:url('../images/bg.jpg') repeat-x;*/ /*filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#D0CEFF, EndColorStr=#FFFFFF);*/
+  font-family: "Noto Sans TC", sans-serif;
+}
+table.classTable {
+  margin: 5pt;
+}
+tr {
+  border: 1px solid #66a4ac;
+}
+td {
+  border: 1px solid #66a4ac;
+  text-align: center;
+  background-color: #c2dde4 !important;
+}
+td.title /* 標題列 */ {
+  font-size: 12px;
+  color: #003a44 !important;
+  background-color: #c2dde4 !important;
+  font-weight: bolder;
+}
+td.tdHeader /* 星期 */ {
+  color: #003a44;
+  background-color: #c2dde4;
+  text-align: center;
+  width: 75px;
+}
+td.tdHeader1, td.tdHeader2 /* 上下午, 節次 */ {
+  color: #003a44;
+  background-color: #c2dde4;
+  text-align: center;
+  font-size: 13px;
+}
+td.tdHeader1 /* 上下午 */ {
+  width: 20px;
+}
+td.tdHeader2 /* 節次 */ {
+  width: 24px;
+}
+td.tdHeader3 /* 時間 */ {
+  color: #003a44;
+  background-color: #c2dde4;
+  text-align: center;
+  font-size: 13px;
+  width: 34px;
+}
+td.tdColumn /* 科目、教師、班級、教室 */ {
+  background-color: #c2dde4;
+  font-size: 13px;
+  color: #003a44;
+  border: 1px solid #66a4ac;
+  width: 75px;
+  height: 50px;
+}
+td.tdColumnA1, td.tdColumnA2, td.tdColumnA3, td.tdColumnA4 /* 科目、教師、班級、教室 */ {
+  background-color: #c2dde4;
+  font-size: 13px;
+  color: #003a44;
+  border: 1px solid #66a4ac;
+  height: 30px;
+}
+td.tdColumnA1 {
+  width: 150px;
+}
+td.tdColumnA2 {
+  width: 150px;
+}
+td.tdColumnA3 {
+  width: 100px;
+}
+td.tdColumnA4 {
+  width: 150px;
+}
+td.term /* 星期兩側空白區 */ {
+  font-size: 15px;
+  color: #003a44;
+  background-color: #c2dde4;
+  border: 1px solid #66a4ac;
+  font-weight: bolder;
+}
+a {
+  color: #06565b;
+  text-decoration: none;
+}
+A:hover {
+  color: #06565b;
+}
+A:active {
+  color: #3a9ad9;
+}
+a.course {
+  color: #003a44;
+}
+a.course:hover {
+  color: #003a44;
+}
+table {
+  border: thin solid #66a4ac;
+}
+div.contextmenu {
+  position: absolute;
+  border-left: solid 1px #66a4ac;
+  border-top: solid 1px #66a4ac;
+  border-right: solid 1px #66a4ac;
+  border-bottom: solid 1px #66a4ac;
+  width: 168px;
+  z-index: 9;
+  cursor: default;
+}
+div.contextmenu div.menubody {
+  border: none;
+  background: #c2dde4;
+  padding: 1px;
+}
+div.contextmenu div.item {
+  border: none;
+  height: 13pt;
+  padding: 2px;
+  padding-left: 20px;
+  z-index: 8;
+  font-size: 9pt;
+  font-family: "Noto Sans TC", sans-serif;
+  word-break: normal;
+  word-wrap: normal;
+  overflow: hidden;
+}
+div.contextmenu div.normal {
+  color: #003a44;
+  background: #c2dde4;
+}
+div.contextmenu div.selected {
+  color: #003a44;
+  background: #c2dde4;
+}
+div.contextmenu div.item span.alt {
+  text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+line-bot-sdk
+flask
+configparser
+firebase-admin
+requests
+beautifulsoup4
+imgkit
+

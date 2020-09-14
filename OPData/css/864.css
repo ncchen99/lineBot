@@ -1,0 +1,26 @@
+.title /* 標題列 */ {
+  font-size: 16px !important;
+}
+td.tdHeader /* 星期 */ {
+  font-size: 14px !important;
+  line-height: 14px;
+  height: 24px !important;
+  padding-bottom: 0px;
+  padding-top: 2px;
+}
+.term /* 星期兩側空白區 */ {
+  font-size: 14px !important;
+}
+td.tdHeader1 /* 上午|下午 */ {
+  font-size: 14px !important;
+}
+td.tdHeader2 /* 節次 */ {
+  font-size: 14px !important;
+}
+td.tdHeader3 /* 時間 */ {
+  font-size: 14px !important;
+}
+td.tdColumn /* 科目、教師、班級、教室 */ {
+  font-size: 14px !important;
+  height: 56px !important;
+}
